@@ -1,0 +1,16 @@
+func init --docker
+    3   (python)
+    vi Dockerfile
+
+func new
+    5 (httpTrigger)
+or  9  (TimerTrigger)
+
+    ls ( see Timer or Http file )
+
+docker build -t vhernandez/builddemo
+docker push bvhernandez/builddemo:latest
+
+builddemo -> rsource rgroup
+
+docker image or code
